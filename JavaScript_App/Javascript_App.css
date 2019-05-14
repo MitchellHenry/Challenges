@@ -1,8 +1,9 @@
-#input{
+#Input{
     display: flex;
-    position: absolute;
-        top: 30%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
    }
+   #OurButton{
+       margin-left: 3px;
+   }
+#OurButton2{
+    margin-left: 3px;
+}
