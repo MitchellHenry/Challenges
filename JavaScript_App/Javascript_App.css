@@ -1,9 +1,47 @@
-#Input{
+#Input {
     display: flex;
-   }
-   #OurButton{
-       margin-left: 3px;
-   }
-#OurButton2{
+}
+
+#OurButton {
     margin-left: 3px;
 }
+
+#OurButton2 {
+    margin-left: 3px;
+}
+
+#container {
+    display: flex;
+}
+
+#New2 {
+    padding-left: 100px;
+}
+
+#New3 {
+    padding-left: 100px;
+}
+#New4 {
+    padding-left: 100px;
+}
+
+#Time {
+    display: flex;
+}
+
+#Text {
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#List{
+    display: flex;
+}
+
+#h4{
+margin-top: 0px;
+margin-bottom: 0px;
+padding-right: 5px;
+}
+

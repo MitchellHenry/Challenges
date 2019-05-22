@@ -5,13 +5,42 @@
     <link href="Javascript_App.css" rel="stylesheet">
 </head>
 
-<body>
-    <div id="Input">
-        <input type="text" id="input">
-        <button id="OurButton">Add</button>
-        <button id="OurButton2">Clear All</button>
-    </div>
-    <div id="New">
+<body id="Main">
+    <div id="Body">
+        <h2>Add Task</h2>
+        <div id="Input">
+            <input type="text" id="input" placeholder="New Item">
+            <button id="OurButton">Add</button>
+            <button id="OurButton2">Clear All</button>
+        </div>
+        <br>
+        <div id="List">
+            <h4 id="h4">Task Categories</h4>
+            <select id="MyList">
+                <option value="1">Task</option>
+                <option value="2">Shopping</option>
+                <option value="3">Venue</option>
+            </select>
+        </div>
+        <br>
+        <div id="Time">
+            <h4 id="Text">Time given to complete task:</h4>
+            <input type="number" id="TimeForTask" placeholder="Time in seconds to finish">
+        </div>
+        <div id="container">
+            <div id="New">
+                <h2>Task</h2>
+            </div>
+            <div id="New2">
+                <h2>Shopping</h2>
+            </div>
+            <div id="New3">
+                <h2>Venue</h2>
+            </div>
+            <br>
+            <div id="New4">
+            </div>
+        </div>
     </div>
     <script src="Javascript_App.js"></script>
 </body>
