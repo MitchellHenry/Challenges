@@ -1,0 +1,51 @@
+#CookieIMG {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#text {
+    display: flex;
+}
+
+#Upgrades {
+    padding-left: 100px;
+}
+
+#CoversAllDiv {
+    display: flex;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.UpgradeDivs{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.UpgradeCost {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.UpgradeDescEnd{
+    padding-right: 3px;
+}
+
+#FarmButton{
+    padding-right: 14px;
+}
+
+.UpgradeButtonAndIMG{
+    cursor: pointer;
+}
+
+#Cookie_text{
+    position: absolute;
+    bottom: 240px;
+    left: 70px;
+    color: white;
+    font-size: 40px;
+}
